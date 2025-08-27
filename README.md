@@ -1,17 +1,13 @@
-title: CarVinApp
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-  - streamlit
+---
+title: Car VIN Decoder
+emoji: 🚗
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.29.0"
+app_file: app.py
 pinned: false
-short_description: Streamlit template space
-
-# Car Dealership VIN Lookup App
-
-![alt text](logo_image.png)
+---
 
 ## 📌 Overview
 This is a simple app for a car dealership that allows users to look up vehicle information (year, make, and model) by entering a VIN number.  
