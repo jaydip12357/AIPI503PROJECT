@@ -162,8 +162,8 @@ def main():
     """
 
     col1, col2 = st.columns([1, 2])
-    with col1:
-        st.image(logo_img_file, width=180)
+    #with col1:
+    #    st.image(logo_img_file, width=180)
     with col2:
             st.markdown("""
                 <div style='text-align: left; margin-top: 30px;'>
