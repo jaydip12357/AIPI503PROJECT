@@ -22,8 +22,8 @@ import matplotlib.pyplot as plt
 from collections import Counter
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))       # Gets the current directory
-logo_img_file = os.path.join(BASE_DIR, "logo_image.png")
-car_img_file = os.path.join(BASE_DIR, "car_image.png")
+#logo_img_file = os.path.join(BASE_DIR, "logo_image.png")
+#car_img_file = os.path.join(BASE_DIR, "car_image.png")
 TOP3 = 3                                                    # Define top N makes to display
 
 # Check if the 'make_history' key is already in Streamlit's session state
