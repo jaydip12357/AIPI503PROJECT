@@ -143,8 +143,8 @@ def get_vin(vin):
             status_area.success("VIN decoded successfully!")
             
             track_make(make)
-            with col1:     
-                st.image(car_img_file, use_container_width=True)
+            #with col1:     
+            #    st.image(car_img_file, use_container_width=True)
 
             with col2:
                 st.write(f"Below are the vehicle details :")
